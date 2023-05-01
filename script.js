@@ -19,6 +19,8 @@ const sub = numberOne - numberTwo
 const multi = numberOne * numberTwo
 const div = numberOne / numberTwo
 const restDiv = numberOne % numberTwo
+const resSum = sum % 2
+
 
 alert('Soma: ' + sum)
 alert('Subtração: ' + sub)
@@ -40,7 +42,7 @@ if(numberOne === numberTwo) {
 
 }
 
-if (sum === 0){
+if (resSum === 0){
     alert("O resultado da soma é um número par")
 } else {
   alert("O resultado da soma é um número ímpar")
